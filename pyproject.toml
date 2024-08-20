@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "asteroids"
+version = "0.1.0"
+description = ""
+authors = ["malathair <malathair@spectregate.net>"]
+readme = "README.md"
+packages = [
+    { include = "asteroids", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
